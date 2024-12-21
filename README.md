@@ -12,6 +12,9 @@ This repository is the official implementation of [Enhance-A-Video: Better Gener
 Install the dependencies:
 
 ```bash
+sudo apt-get update && sudo apt-get install cbm git-lfs ffmpeg
+git clone https://github.com/svjack/Enhance-A-Video && cd Enhance-A-Video
+
 conda create -n feta python=3.10
 conda activate feta
 pip install ipykernel
