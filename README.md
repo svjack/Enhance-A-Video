@@ -14,6 +14,8 @@ Install the dependencies:
 ```bash
 conda create -n feta python=3.10
 conda activate feta
+pip install ipykernel
+python -m ipykernel install --user --name feta --display-name "feta"
 pip install -r requirements.txt
 ```
 
